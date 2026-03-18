@@ -6,7 +6,7 @@ services:
 
     container_name: gostratacore-engine
 
-    build: .
+    image: ghcr.io/gostratacore/gostratumengine:1.2.0
 
     restart: unless-stopped
 
